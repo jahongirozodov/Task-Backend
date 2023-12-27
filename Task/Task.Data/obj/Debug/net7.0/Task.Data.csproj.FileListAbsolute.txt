@@ -1,0 +1,17 @@
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\bin\Debug\net7.0\Task.Data.deps.json
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\bin\Debug\net7.0\Task.Data.dll
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\bin\Debug\net7.0\Task.Data.pdb
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\bin\Debug\net7.0\Task.Domain.dll
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\bin\Debug\net7.0\Task.Domain.pdb
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\obj\Debug\net7.0\Task.Data.csproj.AssemblyReference.cache
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\obj\Debug\net7.0\Task.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\obj\Debug\net7.0\Task.Data.AssemblyInfoInputs.cache
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\obj\Debug\net7.0\Task.Data.AssemblyInfo.cs
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\obj\Debug\net7.0\Task.Data.csproj.CoreCompileInputs.cache
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\obj\Debug\net7.0\Task.Data.csproj.CopyComplete
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\obj\Debug\net7.0\Task.Data.dll
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\obj\Debug\net7.0\refint\Task.Data.dll
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\obj\Debug\net7.0\Task.Data.pdb
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\obj\Debug\net7.0\ref\Task.Data.dll
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\bin\Debug\net7.0\Task.Data.runtimeconfig.json
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\obj\Debug\net7.0\Task.Data.genruntimeconfig.cache
