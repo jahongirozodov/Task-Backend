@@ -1,12 +1,23 @@
-﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
+﻿using System.Text;
+using Task.Service.Services;
+using Task.Service.Interfaces;
 using Microsoft.OpenApi.Models;
-using System.Text;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Task.Data.IRepositories;
+using RTask.Data.IRepositories;
 
-namespace Task.Api
+namespace Task.Api.Extensions
 {
     public static class Extension
     {
+        public static void AddCustomService(this IServiceCollection services)
+        {
+            services.AddScoped<IUserService,UserService>();
+            services.AddScoped<IAuthService,AuthService>();
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+        }
+
         public static void AddJwtService(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddAuthentication(options =>

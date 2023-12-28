@@ -49,3 +49,4 @@ C:\Users\jahongir\Desktop\Task Backend\Task\Task.Api\obj\Debug\net7.0\refint\Tas
 C:\Users\jahongir\Desktop\Task Backend\Task\Task.Api\obj\Debug\net7.0\Task.Api.pdb
 C:\Users\jahongir\Desktop\Task Backend\Task\Task.Api\obj\Debug\net7.0\Task.Api.genruntimeconfig.cache
 C:\Users\jahongir\Desktop\Task Backend\Task\Task.Api\obj\Debug\net7.0\ref\Task.Api.dll
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Api\obj\Debug\net7.0\Task.Api.sourcelink.json

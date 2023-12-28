@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Task.Api;
+using Task.Api.Extensions;
 using Task.Data.DbContexts;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,12 +12,14 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddJwtService(builder.Configuration);
+
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("Administration", p => p.RequireRole("Admin", "SuperAdmin"));
     options.AddPolicy("AdminMerchant", p => p.RequireRole("Admin", "Merchant"));
     options.AddPolicy("Worker", p => p.RequireRole("Driver", "Picker", "Packer"));
 });
+
 
 builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(
     builder.Configuration.GetConnectionString("DefaultConnection")));

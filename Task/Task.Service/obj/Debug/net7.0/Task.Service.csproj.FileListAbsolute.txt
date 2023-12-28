@@ -15,3 +15,4 @@ C:\Users\jahongir\Desktop\Task Backend\Task\Task.Service\obj\Debug\net7.0\Task.S
 C:\Users\jahongir\Desktop\Task Backend\Task\Task.Service\obj\Debug\net7.0\refint\Task.Service.dll
 C:\Users\jahongir\Desktop\Task Backend\Task\Task.Service\obj\Debug\net7.0\Task.Service.pdb
 C:\Users\jahongir\Desktop\Task Backend\Task\Task.Service\obj\Debug\net7.0\ref\Task.Service.dll
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Service\obj\Debug\net7.0\Task.Service.sourcelink.json
