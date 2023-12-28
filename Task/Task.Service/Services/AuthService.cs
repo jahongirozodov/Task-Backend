@@ -27,7 +27,8 @@ namespace Task.Service.Services
         public async Task<string> AuthentificateAsync(string email, string password)
         {
             var user = await userService.RetrieveByEmailAsync(email);
-            if (user == null || !PasswordHash.Verify(password, user.Password, user.Salt))
+            var isCorrectPassword = PasswordHash.Verify(password, user.PasswordHash, user.Salt);
+            if (user == null || !isCorrectPassword)
                 throw new CustomException(400, "Email or password is incorrect");
 
             var mappedUser = this.mapper.Map<User>(user);

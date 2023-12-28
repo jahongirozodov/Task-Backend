@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vgQxFfdosxiOKC+AK5cpirOaiyjUf6Tc+bC3JYpo40ePZEXQMNxKMUuW1Ke0dhplQaYaJHpbhYcELCLJcc8djw==",
+  "dgSpecHash": "mez9RKknp2aAAyvLq0nB0TenmxLHGyRxsEb+hcmG6R37m8GvZUTzyKFE0Cq0kWdqH3Rc9jDhjJQ/j+VzAWdA9Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\jahongir\\Desktop\\Task Backend\\Task\\Task.Api\\Task.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jahongir\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\jahongir\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\jahongir\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\jahongir\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\jahongir\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.11\\microsoft.aspnetcore.authentication.jwtbearer.7.0.11.nupkg.sha512",

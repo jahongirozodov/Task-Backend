@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Task.Data.IRepositories;
 using RTask.Data.IRepositories;
+using Task.Service.Helpers;
 
 namespace Task.Api.Extensions
 {
@@ -15,6 +16,7 @@ namespace Task.Api.Extensions
         {
             services.AddScoped<IUserService,UserService>();
             services.AddScoped<IAuthService,AuthService>();
+            services.AddAutoMapper(typeof(MappingProfile));
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
         }
 

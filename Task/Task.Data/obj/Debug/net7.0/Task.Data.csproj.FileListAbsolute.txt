@@ -15,3 +15,4 @@ C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\obj\Debug\net7.0\Task.Data
 C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\obj\Debug\net7.0\ref\Task.Data.dll
 C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\bin\Debug\net7.0\Task.Data.runtimeconfig.json
 C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\obj\Debug\net7.0\Task.Data.genruntimeconfig.cache
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Data\obj\Debug\net7.0\Task.Data.sourcelink.json

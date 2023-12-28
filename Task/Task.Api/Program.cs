@@ -13,13 +13,14 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddJwtService(builder.Configuration);
 
+builder.Services.AddCustomService();
+
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("Administration", p => p.RequireRole("Admin", "SuperAdmin"));
     options.AddPolicy("AdminMerchant", p => p.RequireRole("Admin", "Merchant"));
     options.AddPolicy("Worker", p => p.RequireRole("Driver", "Picker", "Packer"));
 });
-
 
 builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(
     builder.Configuration.GetConnectionString("DefaultConnection")));

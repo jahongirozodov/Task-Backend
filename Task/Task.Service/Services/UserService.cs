@@ -25,10 +25,11 @@ namespace Task.Service.Services
                 throw new AlreadyExistException("This user is already exist!");
 
             var hashSalt = PasswordHash.Hasher(dto.PasswordHash);
-            dto.PasswordHash = hashSalt.passwordHash;
-            dto.PasswordHash = hashSalt.salt;
 
             var mappedUser = this.mapper.Map<User>(dto);
+            
+            mappedUser.PasswordHash = hashSalt.passwordHash;
+            mappedUser.Salt = hashSalt.salt;
 
             await this.repository.CreateAsync(mappedUser);
             await this.repository.SaveAsync();
