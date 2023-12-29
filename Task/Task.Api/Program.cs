@@ -12,9 +12,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddJwtService(builder.Configuration);
-
+//Custom Services
 builder.Services.AddCustomService();
+
+//Jwt Configuration
+builder.Services.AddJwtService(builder.Configuration);
 
 builder.Services.AddAuthorization(options =>
 {
@@ -23,10 +25,11 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("Worker", p => p.RequireRole("Driver", "Picker", "Packer"));
 });
 
+//Add DbContext
 builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(
     builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
+//Cors
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngularOrigins",
