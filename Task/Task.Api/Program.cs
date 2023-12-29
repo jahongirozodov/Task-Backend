@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Task.Api.Extensions;
+using Task.Api.Middlewares;
 using Task.Data.DbContexts;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,16 +26,38 @@ builder.Services.AddAuthorization(options =>
 builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(
     builder.Configuration.GetConnectionString("DefaultConnection")));
 
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngularOrigins",
+    builder =>
+    {
+        builder.WithOrigins(
+                            "http://localhost:4200",
+                            "http://localhost:25342"
+                            )
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+    });
+});
+
+
 var app = builder.Build();
 
+app.UseCors("AllowAngularOrigins");
+
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
+app.UseCors("CorsPolicy");
+
 app.UseHttpsRedirection();
+
+app.UseMiddleware<ExceptionHandlerMiddleware>();
 
 app.UseAuthorization();
 

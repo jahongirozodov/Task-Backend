@@ -9,3 +9,4 @@ C:\Users\jahongir\Desktop\Task Backend\Task\Task.Domain\obj\Debug\net7.0\Task.Do
 C:\Users\jahongir\Desktop\Task Backend\Task\Task.Domain\obj\Debug\net7.0\refint\Task.Domain.dll
 C:\Users\jahongir\Desktop\Task Backend\Task\Task.Domain\obj\Debug\net7.0\Task.Domain.pdb
 C:\Users\jahongir\Desktop\Task Backend\Task\Task.Domain\obj\Debug\net7.0\ref\Task.Domain.dll
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Domain\obj\Debug\net7.0\Task.Domain.sourcelink.json

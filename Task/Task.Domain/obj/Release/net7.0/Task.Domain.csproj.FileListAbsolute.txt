@@ -1,0 +1,12 @@
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Domain\bin\Release\net7.0\Task.Domain.deps.json
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Domain\bin\Release\net7.0\Task.Domain.dll
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Domain\bin\Release\net7.0\Task.Domain.pdb
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Domain\obj\Release\net7.0\Task.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Domain\obj\Release\net7.0\Task.Domain.AssemblyInfoInputs.cache
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Domain\obj\Release\net7.0\Task.Domain.AssemblyInfo.cs
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Domain\obj\Release\net7.0\Task.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Domain\obj\Release\net7.0\Task.Domain.sourcelink.json
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Domain\obj\Release\net7.0\Task.Domain.dll
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Domain\obj\Release\net7.0\refint\Task.Domain.dll
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Domain\obj\Release\net7.0\Task.Domain.pdb
+C:\Users\jahongir\Desktop\Task Backend\Task\Task.Domain\obj\Release\net7.0\ref\Task.Domain.dll
