@@ -11,7 +11,7 @@ public class PasswordHash
 
     public static bool Verify(string password, string passwordHash, string salt)
     {
-        return BCrypt.Net.BCrypt.Verify(passwordHash, salt + password);
+        return BCrypt.Net.BCrypt.Verify(salt + password, passwordHash);
     }
 }
 
