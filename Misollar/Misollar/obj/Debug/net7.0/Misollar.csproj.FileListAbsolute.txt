@@ -1,0 +1,15 @@
+C:\Users\jahongir\Desktop\Task Backend\Misollar\Misollar\bin\Debug\net7.0\Misollar.exe
+C:\Users\jahongir\Desktop\Task Backend\Misollar\Misollar\bin\Debug\net7.0\Misollar.deps.json
+C:\Users\jahongir\Desktop\Task Backend\Misollar\Misollar\bin\Debug\net7.0\Misollar.runtimeconfig.json
+C:\Users\jahongir\Desktop\Task Backend\Misollar\Misollar\bin\Debug\net7.0\Misollar.dll
+C:\Users\jahongir\Desktop\Task Backend\Misollar\Misollar\bin\Debug\net7.0\Misollar.pdb
+C:\Users\jahongir\Desktop\Task Backend\Misollar\Misollar\obj\Debug\net7.0\Misollar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jahongir\Desktop\Task Backend\Misollar\Misollar\obj\Debug\net7.0\Misollar.AssemblyInfoInputs.cache
+C:\Users\jahongir\Desktop\Task Backend\Misollar\Misollar\obj\Debug\net7.0\Misollar.AssemblyInfo.cs
+C:\Users\jahongir\Desktop\Task Backend\Misollar\Misollar\obj\Debug\net7.0\Misollar.csproj.CoreCompileInputs.cache
+C:\Users\jahongir\Desktop\Task Backend\Misollar\Misollar\obj\Debug\net7.0\Misollar.sourcelink.json
+C:\Users\jahongir\Desktop\Task Backend\Misollar\Misollar\obj\Debug\net7.0\Misollar.dll
+C:\Users\jahongir\Desktop\Task Backend\Misollar\Misollar\obj\Debug\net7.0\refint\Misollar.dll
+C:\Users\jahongir\Desktop\Task Backend\Misollar\Misollar\obj\Debug\net7.0\Misollar.pdb
+C:\Users\jahongir\Desktop\Task Backend\Misollar\Misollar\obj\Debug\net7.0\Misollar.genruntimeconfig.cache
+C:\Users\jahongir\Desktop\Task Backend\Misollar\Misollar\obj\Debug\net7.0\ref\Misollar.dll

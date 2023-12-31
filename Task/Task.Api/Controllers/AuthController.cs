@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Task.Api.Helpers;
+using Task.Service.DTOs.Users;
 using Task.Service.Interfaces;
 
 namespace Task.Api.Controllers
@@ -17,13 +18,13 @@ namespace Task.Api.Controllers
         }
         [HttpGet("Authorize")]        
         
-        public async Task<IActionResult> AuthenticateAsync(string email,string password)
+        public async Task<IActionResult> AuthenticateAsync([FromBody]UserLoginDto dto)
         {
             return Ok(new Response
             {
                 StatusCode = 200,
                 Message = "Success",
-                Data = await authService.AuthentificateAsync(email, password)
+                Data = await authService.AuthentificateAsync(dto)
             });
         } 
     }

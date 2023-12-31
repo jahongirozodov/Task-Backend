@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "fTyQSVcVBvRjrVjtPH5TOPy+poiU3RU/Umy5/UZWlT5GRJTY+uGmbiHZVCyO64/eGpyZq1Wxtm/IXhw/y26vyA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jahongir\\Desktop\\Task Backend\\Misollar\\Misollar\\Misollar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jahongir\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\jahongir\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\jahongir\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\jahongir\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

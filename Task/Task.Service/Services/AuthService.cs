@@ -8,6 +8,7 @@ using Task.Service.Interfaces;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.Extensions.Configuration;
+using Task.Service.DTOs.Users;
 
 namespace Task.Service.Services
 {
@@ -24,10 +25,10 @@ namespace Task.Service.Services
             this.configuration = configuration;
         }
 
-        public async Task<string> AuthentificateAsync(string email, string password)
+        public async Task<string> AuthentificateAsync(UserLoginDto dto)
         {
-            var user = await userService.RetrieveByEmailAsync(email);
-            var isCorrectPassword = PasswordHash.Verify(password, user.PasswordHash, user.Salt);
+            var user = await userService.RetrieveByEmailAsync(dto.Email);
+            var isCorrectPassword = PasswordHash.Verify(dto.Password, user.PasswordHash, user.Salt);
             if (user == null || !isCorrectPassword)
                 throw new CustomException(400, "Email or password is incorrect");
 
