@@ -16,7 +16,7 @@ namespace Task.Api.Controllers
         {
             this.authService = authService;
         }
-        [HttpGet("Authorize")]        
+        [HttpPost("Authorize")]        
         
         public async Task<IActionResult> AuthenticateAsync([FromBody]UserLoginDto dto)
         {
